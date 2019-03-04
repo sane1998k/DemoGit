@@ -14,9 +14,13 @@ class ViewController: UIViewController {
     //World
     override func viewDidLoad() {
         super.viewDidLoad()
+        name(parameters: "dfc")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    func name(parameters:String){
+        print("")
+    }
 
 }
 
